@@ -24,7 +24,7 @@ o.scrolloff = 10
 local ok_theme = pcall(function()
   o.termguicolors = true
   o.cursorline = true
-  cmd("colorscheme minisummer")
+  cmd("colorscheme catppuccin")
   cmd([[
   highlight Normal guibg=none
   highlight NonText guibg=none
